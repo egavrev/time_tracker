@@ -2,6 +2,7 @@ import unittest
 from unittest.mock import patch, MagicMock
 from flask import Flask
 
+
 class TestTasks(unittest.TestCase):
     def setUp(self):
         self.app = Flask(__name__)
